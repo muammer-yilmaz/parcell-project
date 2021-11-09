@@ -9,4 +9,15 @@
     justify-content: center;
    
 }			                                            
-
+.formHeader{
+    background-color: #666690;
+    text-align: center;
+    font-style: italic;
+    
+}
+.header1{
+    color: white;
+}
+#googleForm{
+    text-align: center;
+}
