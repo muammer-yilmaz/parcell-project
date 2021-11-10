@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/frontend/src/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+ 
+    </head>
+
+    <body>
+        <div class="formHeader">
+            <div class="header1">
+                <h1>Parcell</h1>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading1">Müşteri Hizmetleri</h2><br>
+                   <h6>Parcell ailesi olarak müşteri odaklı hizmet anlayışımız ile müşterilerimizin sorularına en hızlı ve açık şekilde cevap vermek, 
+                       servis kalitemizi ve müşteri memnuniyetini en üst düzeyde tutabilmek adına alanında uzman kadromuzla hizmetinizdeyiz. Bizlere mail yoluyla ulaşmak isterseniz
+                        bu formu kullanabilirsiniz. </h6>
+                </div>
+            </div>
+            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="label" for="name">Ad & Soyad</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Adınız ve Soyadınız">
+                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="label" for="email">Email Adresi</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Adresiniz">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="label" for="subject">Konu</label>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="label" for="#">Mesaj</label>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Mesajınız"></textarea>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="submit" value="Gönder" class="btn btn-primary">
+                            <div class="submitting"></div>
+                        </div>
+                    </div>
+                    </div>
+            </form>
+
+            <div class="m-4">
+                <div class="accordion" id="myAccordion">
+    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Canlı Destek Nedir?</button>									
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                            <div class="card-body">
+                                <p>Canlı Destek, sitemize giren ziyaretçilerimize online olarak erişebilmemizi, iletişim kurmamızı sağlayan bir sistemdir. Bu sistem ana sayfamızda,
+                                    iletişim sayfamızda, müşteri hizmetleri sayfamızda ..ufak bir pencere olarak bulunmaktadır. Müşterilerimiz bu alana tıklayıp ihtiyaç duyulan bilgileri doldurduğunda
+                                    müşteri temsilcimize bağlanır. Müşterilerimiz ve temsilcilerimiz arasında anlık bir iletişim sağlanır. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container justify-content-center items-align-center">
+                        <div class="row justify-content-center">
+                          <div class="col-6 col-sm-2">
+                            <a class="btn btn-secondary" href="../views/requestform.html" role="button">Şikayet/Talep Formu</a>
+                          </div>
+                          <div class="col-6 col-sm-2">
+                            <a class="btn btn-secondary" href="../views/faq.html" role="button">Sık Sorulan Sorular</a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+            <tr>        
+                <td>
+                    <strong>
+                        <i class="bi-telephone" style="color: #666690;"></i>
+                            İletişim No.                                              
+                    </strong>
+                </td>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>Müşteri hizmetlerimize Parcell hatlarınızdan 532'yi; diğer operatörlerden ve sabit hatlardan 0 (532) 532 00 00'ı arayarak ulaşabilirsiniz.</p>
+        </div>
+    </body>
+</html>
