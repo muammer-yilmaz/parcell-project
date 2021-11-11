@@ -40,3 +40,37 @@ a.btn{
     justify-content: left;
     margin-left: 50px;
 }
+
+.contact-content{
+    border:1px solid #DDDDDD;
+    -webkit-border-radius:12px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: -50px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-right: 230px;
+    border-radius: 15px;
+
+  }
+
+  #contact-address{
+    margin-top: 40px;
+    font-size: 16px;
+    margin-right: 140px;
+    margin-left: 20px;  
+  }
