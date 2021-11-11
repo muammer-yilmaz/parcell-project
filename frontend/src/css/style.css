@@ -30,7 +30,6 @@ a.btn{
     text-decoration: none;
 }
 
-
 .payment-content{
     border:1px solid #DDDDDD;
     -webkit-border-radius:12px;
@@ -40,4 +39,8 @@ a.btn{
     margin-top: 20px;
     justify-content: left;
     margin-left: 50px;
+}
+
+.satis-sozlesme{
+    text-decoration: none;
 }
