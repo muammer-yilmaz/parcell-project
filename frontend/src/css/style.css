@@ -7,6 +7,37 @@
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
+    margin-top: 20px;
    
 }			                                            
+.formHeader{
+    background-color: #666690;
+    text-align: center;
+    font-style: italic;
+    
+}
+.header1{
+    color: white;
+}
+#googleForm{
+    text-align: center;
+}
+.heading1{
+    margin-top: 20px;
+}
 
+a.btn{
+    text-decoration: none;
+}
+
+
+.payment-content{
+    border:1px solid #DDDDDD;
+    -webkit-border-radius:12px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    justify-content: left;
+    margin-left: 50px;
+}
