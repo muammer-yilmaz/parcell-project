@@ -1,302 +1,777 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Parcell FAQ</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="/frontend/src/css/style.css">
-        <div class="formHeader">
-            <div class="header1">
-                <h1>Parcell</h1>
-            </div>  
-        </div>
-    </head>
-    <body>
-        <div class="m-4">
-            <div class="accordion" id="myAccordion">
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Mobil haberleşme hizmetlerinde abonelik tesis ederken dikkat etmem gereken hususlar nelerdir?</button>									
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Abonelik sözleşmesi imzalamadan önce abonelik sözleşmesindeki hak ve yükümlülüklerinizi dikkatlice okumanız, sözleşmenin ilk sayfasında bulunan abone tercihlerini işaretlemeniz, girilen kişisel bilgilerinizin doğruluğundan emin olmanız gerekmektedir. Özellikle seçmiş olduğunuz tarifenin isminin doğru bir şekilde abonelik sözleşmesine yazıldığından emin olunuz. Sözleşmenin imzalı bir suretini almayı unutmayınız!</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Aboneliğimi nasıl iptal edebilirim?</button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Abonesi olduğunuz işletmeciye talebinizi, kimliğinizi ispatlayıcı belge ile birlikte yazılı olarak bildirmek veya işletmecinin faks numarasına imzalı olarak göndermek suretiyle sözleşmenizi sona erdirebilirsiniz. İşletmeci, yazılı talebin kendisine ulaşmasından itibaren; 24 saat içerisinde talebinizin alındığı bilgisini iletişim adresine iletmek zorundadır.
-
-                                Ayrıca işletmeci 7 gün içerisinde fesih talebini yerine getirerek posta, elektronik posta, kısa mesaj ya da arama yöntemlerinden birini kullanarak abonelik sözleşmesinin feshedildiğini tarafınıza bildirmekle yükümlüdür.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Tarife ücreti değişikliği durumunda yapılması gerekenler?</button>                     
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Tarife değişikliği yürürlüğe girmeden makul bir süre önce işletmeciler tarife değişikliğini abonelere SMS, arama ve/veya posta ile (faturada değişiklik belirtilebilmektedir) duyurmakla yükümlüdür. Bu nedenle işletmeciler tarafından SMS, telefon veya posta yoluyla yapılan bilgilendirmelerin dikkate alınması önem arz etmektedir.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">Kullanım miktarı sınırlı hizmetlerde paket, kota aşımı yapmamam için bilgilendirilme nasıl yapılmaktadır?</button>                     
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Ses, SMS, internet (veri) ve benzeri hizmetlerin sunulduğu kullanım miktarı sınırlı (100 dk, 500 SMS veya 4GB vb.) hizmet kullanan aboneler, kullanım miktarının %80 ve %100 sınırına ulaşılması durumunda asgari olarak kısa mesaj ile bilgilendirilmektedirler. Ayrıca, aboneler tarafından kullanım miktarı sınırlı paketlerin ne kadarlık kısmının kullanıldığı bilgisi işletmecilerin internet sitelerinin online işlemler menüsünden veya SMS göndermek suretiyle ücretsiz olarak sorgulanabilmektedir. Söz konusu bilgilere işletmecinin müşteri hizmetlerinden de ulaşılabilmektedir.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">Onayım olmadan katma değerli hizmet satın aldığım gerekçesi ile hattıma ücret yansıtılmış. Ne yapmalıyım?</button>                     
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Talebiniz ya da onayınız olmadan söz konusu hizmete üyelik yapıldığını düşünüyorsanız, mobil cihazınızı sadece sizin kullandığınızdan, SMS, wap vb. bir yöntemle ücret ve abonelik ile ilgili bir onay vermemiş olduğunuzdan veya hattınızı kullanan başka birinin (yakınlarınız gibi) hizmete üyelik yapmadığından emin olduktan sonra, şikâyetiniz için hizmet aldığınız işletmeciye başvurabilirsiniz. İşletmeciler tarafından sorunun çözülmediği takdirde yasal yollara başvurabilirsiniz.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">Taahhütlü tarife nedir ve neden tercih edilmeli ya da edilmemelidir?</button>                     
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Taahhütlü tarifeler, belirli bir tarifede belirli bir süre için aboneliğinizi devam ettirmeniz veya belirlenen koşulları sağlamanız halinde bazı avantajlar sağlayan tarifelerdir. Bu nedenle taahhütlü tarifeleri seçerken;
-                                    <p>Taahhüt dönemi boyunca ilgili hizmet ihtiyacınızı,</p>
-                                    <p>Taşınma ihtimalinizin olup olmadığını, mümkünse taşınacağınız bölgede işletmecinizin altyapısının bulunup bulunmadığını,</p>
-                                    <p>Taahhüt bulunmayan tarifelere göre seçmeyi düşündüğünüz taahhütlü tarifenin avantaj ve dezavantajlarını değerlendirerek karar vermeniz uygun olacaktır.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSeven">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">Taahhütlü tarife aboneliğimi istediğim zaman sonlandırabilir miyim?</button>                     
-                    </h2>
-                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Taahhüdünüzü istediğiniz zaman sonlandırabilirsiniz. Ancak süresinden önce taahhütlü sözleşmenizden caymanız halinde işletmeciler; taahhüde aykırılığın oluştuğu döneme kadar aboneye sağlanan indirim, cihaz veya sağlanan diğer faydaların bedelleri ile kampanya taahhütnamesi kapsamında belirlenen aylık tarife bedelinin taahhüt süresi bitimine kadar kalan aylara ilişkin ücretlerin toplam bedelini karşılaştırarak, abone açısından daha avantajlı olan tutarı, cayma bedeli olarak faturanıza yansıtabilmektedir.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingEight">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight"> Adresime fatura gelmiyor. Ne yapmalıyım?</button>                     
-                    </h2>
-                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>İşletmeciler abonelerine basılı fatura göndermekle yükümlüdür. Ancak, abonenin talebi veya onayı ile basılı fatura yerine elektronik ortamda da fatura gönderilebilir. Bununla birlikte, faturalarınızın adresinize ulaşmaması halinde, abonesi olduğunuz işletmecideki adres bilginizin doğru olup olmadığını kontrol etmenizde fayda görülmektedir.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingNine">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">İşletmecilerin ayrıntılı fatura için ücret talep etmeleri uygun mudur?</button>                     
-                    </h2>
-                    <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Ayrıntılı faturanın;
-                                <p>basılı olarak talep edilmesi durumunda işletmeciler tarafından ücretli veya ücretsiz şekilde,</p>
-                                <p>elektronik ortamda talep edilmesi durumunda ise ücretsiz bir şekilde aboneye sunulması gerekmektedir.</p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">Faturam tarifemde belirtilen tutardan fazla geldi. Ne yapmalıyım?</button>                     
-                    </h2>
-                    <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Faturanıza hangi ücretlerin yansıtıldığı bilgisini, hizmet aldığınız işletmecinin internet sitesinde yer alan online işlemler menüsünden (asgari 3 aylık kullanım detayları yer almaktadır) sorgulayarak ya da müşteri hizmetlerini arayarak öğrenebilirsiniz. Halen söz konusu fatura tutarının fazla olduğunu düşünüyorsanız işletmecinize başvurabilirsiniz. Başvurunuz neticesinde, sorunun işletmeciniz tarafından çözülmediğini değerlendirmeniz halinde yasal yollara başvurabilirsiniz.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingEleven">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEleven">Yurt dışı seyahatlarimde mobil hattımı kullanırken dikkat etmem gereken hususlar nelerdir?</button>                     
-                    </h2>
-                    <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Mobil hattınızı yurt dışında kullanabilmek için hattınızın uluslararası dolaşım hizmetine (roaming) açık olması gerekmektedir. Ancak, yurt dışında iken arama yapmanın yanında aranmanın da ücrete tabi olması, yurt dışındaki arama/aranma ve veri kullanım (internete erişim) ücretlerinin, ülkeden ülkeye değişebilmekle birlikte, yurt içindeki aynı hizmetlere göre daha yüksek olması sebebiyle, işletmecinizin internet sitesinden, müşteri hizmetlerinden temin edebileceğiniz veya yurt dışına gittiğiniz ülkede tarafınıza SMS ile gönderilen yurt dışı ücretlerini göz önünde bulundurarak kullanım yapmanızda fayda görülmektedir.
-
-                                Ayrıca herhangi bir talebe gerek olmaksızın uluslararası mobil veri dolaşım (roaming) hizmetinden yararlanan abonelere, veri (data) kullanım tutarları 100 TL ve 250 TL’ye ulaştığında işletmeciler tarafından bilgilendirilme yapılmaktadır.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwelve">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwelve">Cihazımın diğer ülke şebekelerine bağlanmaması için ne yapmalıyım?</button>                     
-                    </h2>
-                    <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                           <p>Hattınız uluslararası dolaşım hizmetine (roaming) açılmadığı müddetçe diğer ülke şebekelerinde kullanılamayacaktır. Ancak hattın uluslararası dolaşım hizmetine açık olması durumunda kıyı veya sınır bölgelerimizde bulunan vatandaşlarımızın yurt dışındaki işletmecilerin şebekesi üzerinden hizmet alma ve bu durumda uluslararası dolaşım tarifesi üzerinden ücretlendirilerek yüksek faturalar ile karşılaşma ihtimalleri bulunmaktadır.
-
-                            Bu durum ile karşılaşmamak için; hizmet aldığınız işletmeci ile irtibata geçerek hattınızı uluslararası dolaşım hizmetine kapalı hale getirebilir veya mobil cihazınızın ayarlar menüsünden, kendi mobil operatörünüzü (ağ operatörleri/operatörler) manuel olarak seçerek yurt dışından hizmet veren şebekeye otomatik geçiş yapılmasını engelleyebilirsiniz.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThirteen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThirteen">444'lü numaraları aramanın ücreti nedir?</button>                     
-                    </h2>
-                    <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>444’lü numaralara doğru yapılan aramalarda; abonenin mevcut tarifesinde yer alan sabit hatlara doğru yapılan aramalardaki ücretlendirmeden farklı bir ücretlendirme yapılmamaktadır.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFourteen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFourteen">Güvenli internet hizmeti nedir?</button>                     
-                    </h2>
-                    <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Güvenli İnternet Hizmeti, talebiniz doğrultusunda işletmeciniz tarafından ücretsiz olarak sunulan, Çocuk Profili ve Aile Profili olmak üzere iki seçenekten oluşan ve internet ortamındaki zararlı içeriklerden internet kullanıcılarını büyük oranda koruyan alternatif bir güvenlik hizmetidir.
-
-                                Güvenli İnternet Hizmetinden yararlanabilmek için, internet erişiminizi sağlayan işletmecinin bayisi, çağrı merkezi, kısa mesaj servisi (SMS), online işlem merkezinden herhangi birine başvurarak söz konusu hizmeti etkinleştirilebilir, istediğiniz zaman profilleri değiştirilebilir ya da profilleri devre dışı bırakabilirsiniz. Konuya ilişkin detaylı bilgi www.guvenlinet.org adresinde yer almaktadır.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFifteen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFifteen">Numaramı değiştirmeden hizmet aldığım işletmeciyi değiştirebilir miyim?</button>                     
-                    </h2>
-                    <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Numaranızı değiştirmeden işletmecinizi değiştirebilmeniz için, öncelikle abonesi olmak istediğiniz yeni işletmeciye "numara taşıma" talebinde bulunmanız ve ilgili formları doldurarak taşıma işleminin gerçekleşmesinden itibaren geçerli olacak şekilde abonelik sözleşmesi imzalamanız gerekmektedir. Konuya ilişkin ayrıntılı bilgiye http://www.nts.gov.tr/ internet adresinden sitesinden ulaşabilirsiniz.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSixteen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSixteen">Adıma kayıtlı hat sayısını nasıl öğrenebilirim?</button>                     
-                    </h2>
-                    <div id="collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                           <p>Aboneler, https://hat-sorgulama.btk.gov.tr internet adresinden gerekli bilgileri girerek üzerlerine kayıtlı aktif hatları öğrenebilmektedirler. Ayrıca herhangi bir aboneliği bulunmayan vatandaşlar da üzerlerine kayıtlı hatlara ilişkin bilgiyi e-Devlet üzerinden öğrenebilmektedirler.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSeventeen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen">Engelliler için sunulan hizmetler nelerdir?</button>                     
-                    </h2>
-                    <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Bilgi Teknolojileri ve İletişim Kurulu tarafından yapılan düzenlemeler kapsamında;
-                                <ul>
-                                <li>Talep eden görme engellilerin abonelik sözleşme ve faturalarının "Braille" ya da sesli anons şeklinde sunulması</li><br>
-                                <li>Tarifelerde ve hizmetin sunum koşullarında meydana gelen tüm değişikliklerin talep eden abonelere sesli mesaj olarak gönderilmesi</li><br>
-                                <li>Engelli tüketicilere yönelik makul ölçüde ekonomik avantajlar ihtiva eden tarife ve kampanyalar sunulması</li><br>
-                                <li>Internet sitelerinin engelli abonelerin yararlanabileceği şekilde erişilebilirliğinin sağlanması</li><br>
-                                <li>Engellilere yönelik olarak sunulan tüm hizmetlerin internet sayfası üzerinde tek başlık altında toplanarak engelli tüketicilerin bilgiye erişimlerinin kolaylaştırılması</li><br>
-                                <li>Talep eden abonelere ücretsiz sesli konum bilgisi verilmesi</li><br>
-                                <li>Engelli abonenin konum bilgisinin, engelli abonenin talebi doğrultusunda asgari (1) telefon numarası tarafından da ücretsiz olarak (farklı operatörler arasında yapılacak sorgulamalarda yansıyabilecek kısa mesaj veya arama ücretleri hariç) öğrenilebilmesinin sağlanması</li><br>
-                                <li>Talep eden abonelere fatura ve kota dolum bilgilerinin sesli mesaj olarak gönderilmesi</li><br>
-                                <li>Abonenin talebi doğrultusunda "Aradığınız kişi işitme engellidir" bilgisinin ücretsiz olarak sunulması</li><br>
-                                <li>Ses hizmetinden bağımsız olarak sadece SMSm veya sadece data paketi hizmeti sunulması gerekmektedir</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingEighteen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEighteen">Mobil telefon cihazı alırken nelere dikkat edilmelidir?</button>                     
-                    </h2>
-                    <div id="collapseEighteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Mobil telefon cihazı alırken aşağıdaki hususlarına dikkat edilmesinde fayda görülmektedir.
-                                <ul>
-                                    <li>Satın alınacak cihazın ambalajının açılmamış olması</li>
-                                    <li>Cihazın markası, modeli ve seri numarası veya IMEI numarasının faturada belirtilmiş olması ve faturanın muhafaza edilmesi</li>
-                                    <li>Cihazda"CE" işaretinin varlığının kontrol edilmesi</li>
-                                    <li>Türkçe kullanım kılavuzu olan cihazların satın alınması</li>
-                                    <li>Garanti belgesinin satıcı tarafından tasdik edilip edilmediğinin kontrol edilmesi</li>
-                                    <li>Satış sonrası montaj, bakım ve onarım hizmetleri ve yetkili servislere ilişkin bilgi alınması</li>
-                                </ul>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingNineteen">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNineteen">Cihazımın ayıplı (kusurlu) olduğunu anlamam durumunda ne yapabilirim?</button>                     
-                    </h2>
-                    <div id="collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                           <p>Cihazın ayıplı (kusurlu) olduğunun anlaşılması (teknik servis tarafından tespit edilmesi) durumunda;
-                               <ul>
-                                   <li>Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme</li>
-                                   <li>Satılanı alıkoyup ayıp oranında satış bedelinden indirim isteme</li>
-                                   <li>Aşırı bir masraf gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme</li>
-                                   <li>İmkân varsa, satılanın ayıpsız bir misli ile değiştirilmesini isteme,seçimlik haklarından birini kullanabilirsiniz. Satıcının yukarıda yer alan yükümlülüğünü yerine getirmemesi halinde yasal yollara başvurabilirsiniz</li>
-                               </ul>
-                           </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwenty">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwenty">Yurt dışından cihaz aldım ve Türkiye’de kullanmak istiyorum. Ne yapmalıyım?</button>                     
-                    </h2>
-                    <div id="collapseTwenty" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                            <p>Mobil işletmeciler tarafından hizmet verilen elektronik kimlik bilgisine (IMEI) sahip cihazların Türkiye’de kullanılabilmesi için kayıt altına alınmaları gerekmektedir. Cihaz kayıt işlemleri e-Devlet şifresi ile www.turkiye.gov.tr internet adresinden yapılabilmektedir.
-
-                                Cihaz kayıt işlemi için ödenmesi gereken ücretler dâhil ayrıntılı bilgiye "Mobil Cihazların Kayıt Altına Alınması ile İlgili Sıkça Sorulan Sorular" rehberinden/bağlantısından ulaşabilirsiniz.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwentyOne">
-                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne">Cihazımı kaybettim/çaldırdım. Ne yapmam gerekir?</button>                     
-                    </h2>
-                    <div id="collapseTwentyOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                        <div class="card-body">
-                           <p>Mobil cihazların sahibinin rızası dışında elden çıkması durumlarında tüketiciler, cihazlarının hizmet almasını engellemek için, e-Devlet üzerinden veya Bilgi Teknolojileri ve İletişim Kurumunun (BTK) Bilgi ve İhbar Merkezinin "120" numaralı telefonunu aramak sureti ile haftanın 7 günü 24 saat (7/24) ihbarda bulunabilirler. Ayrıca, tüketicinin hizmet aldığı işletmeciyi arayarak hattını kullanıma kapatmasında da fayda görülmektedir.
-
-                            Kayıp çalıntı cihazlarla ilgili ayrıntılı bilgiye "Kayıp/Çalıntı Mobil Cihazlarla İlgili Sıkça Sorulan Sorular" rehberinin yer aldığı https://tuketici.btk.gov.tr bağlantısından ulaşabilirsiniz.</p>
-                        </div>
-                    </div>
-                </div>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parcell FAQ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/frontend/src/css/style.css" />
+    <div class="formHeader">
+      <div class="header1">
+        <h1>Parcell</h1>
+      </div>
+    </div>
+  </head>
+  <body>
+    <div class="m-4">
+      <div class="accordion" id="myAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+            >
+              Mobil haberleşme hizmetlerinde abonelik tesis ederken dikkat etmem
+              gereken hususlar nelerdir?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Abonelik sözleşmesi imzalamadan önce abonelik sözleşmesindeki
+                hak ve yükümlülüklerinizi dikkatlice okumanız, sözleşmenin ilk
+                sayfasında bulunan abone tercihlerini işaretlemeniz, girilen
+                kişisel bilgilerinizin doğruluğundan emin olmanız gerekmektedir.
+                Özellikle seçmiş olduğunuz tarifenin isminin doğru bir şekilde
+                abonelik sözleşmesine yazıldığından emin olunuz. Sözleşmenin
+                imzalı bir suretini almayı unutmayınız!
+              </p>
             </div>
+          </div>
         </div>
-    </body>
-</html>                            
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+            >
+              Aboneliğimi nasıl iptal edebilirim?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Abonesi olduğunuz işletmeciye talebinizi, kimliğinizi
+                ispatlayıcı belge ile birlikte yazılı olarak bildirmek veya
+                işletmecinin faks numarasına imzalı olarak göndermek suretiyle
+                sözleşmenizi sona erdirebilirsiniz. İşletmeci, yazılı talebin
+                kendisine ulaşmasından itibaren; 24 saat içerisinde talebinizin
+                alındığı bilgisini iletişim adresine iletmek zorundadır. Ayrıca
+                işletmeci 7 gün içerisinde fesih talebini yerine getirerek
+                posta, elektronik posta, kısa mesaj ya da arama yöntemlerinden
+                birini kullanarak abonelik sözleşmesinin feshedildiğini
+                tarafınıza bildirmekle yükümlüdür.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+            >
+              Tarife ücreti değişikliği durumunda yapılması gerekenler?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Tarife değişikliği yürürlüğe girmeden makul bir süre önce
+                işletmeciler tarife değişikliğini abonelere SMS, arama ve/veya
+                posta ile (faturada değişiklik belirtilebilmektedir) duyurmakla
+                yükümlüdür. Bu nedenle işletmeciler tarafından SMS, telefon veya
+                posta yoluyla yapılan bilgilendirmelerin dikkate alınması önem
+                arz etmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+            >
+              Kullanım miktarı sınırlı hizmetlerde paket, kota aşımı yapmamam
+              için bilgilendirilme nasıl yapılmaktadır?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Ses, SMS, internet (veri) ve benzeri hizmetlerin sunulduğu
+                kullanım miktarı sınırlı (100 dk, 500 SMS veya 4GB vb.) hizmet
+                kullanan aboneler, kullanım miktarının %80 ve %100 sınırına
+                ulaşılması durumunda asgari olarak kısa mesaj ile
+                bilgilendirilmektedirler. Ayrıca, aboneler tarafından kullanım
+                miktarı sınırlı paketlerin ne kadarlık kısmının kullanıldığı
+                bilgisi işletmecilerin internet sitelerinin online işlemler
+                menüsünden veya SMS göndermek suretiyle ücretsiz olarak
+                sorgulanabilmektedir. Söz konusu bilgilere işletmecinin müşteri
+                hizmetlerinden de ulaşılabilmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+            >
+              Onayım olmadan katma değerli hizmet satın aldığım gerekçesi ile
+              hattıma ücret yansıtılmış. Ne yapmalıyım?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Talebiniz ya da onayınız olmadan söz konusu hizmete üyelik
+                yapıldığını düşünüyorsanız, mobil cihazınızı sadece sizin
+                kullandığınızdan, SMS, wap vb. bir yöntemle ücret ve abonelik
+                ile ilgili bir onay vermemiş olduğunuzdan veya hattınızı
+                kullanan başka birinin (yakınlarınız gibi) hizmete üyelik
+                yapmadığından emin olduktan sonra, şikâyetiniz için hizmet
+                aldığınız işletmeciye başvurabilirsiniz. İşletmeciler tarafından
+                sorunun çözülmediği takdirde yasal yollara başvurabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+            >
+              Taahhütlü tarife nedir ve neden tercih edilmeli ya da
+              edilmemelidir?
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Taahhütlü tarifeler, belirli bir tarifede belirli bir süre için
+                aboneliğinizi devam ettirmeniz veya belirlenen koşulları
+                sağlamanız halinde bazı avantajlar sağlayan tarifelerdir. Bu
+                nedenle taahhütlü tarifeleri seçerken;
+              </p>
+              <p>Taahhüt dönemi boyunca ilgili hizmet ihtiyacınızı,</p>
+              <p>
+                Taşınma ihtimalinizin olup olmadığını, mümkünse taşınacağınız
+                bölgede işletmecinizin altyapısının bulunup bulunmadığını,
+              </p>
+              <p>
+                Taahhüt bulunmayan tarifelere göre seçmeyi düşündüğünüz
+                taahhütlü tarifenin avantaj ve dezavantajlarını değerlendirerek
+                karar vermeniz uygun olacaktır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+            >
+              Taahhütlü tarife aboneliğimi istediğim zaman sonlandırabilir
+              miyim?
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Taahhüdünüzü istediğiniz zaman sonlandırabilirsiniz. Ancak
+                süresinden önce taahhütlü sözleşmenizden caymanız halinde
+                işletmeciler; taahhüde aykırılığın oluştuğu döneme kadar aboneye
+                sağlanan indirim, cihaz veya sağlanan diğer faydaların bedelleri
+                ile kampanya taahhütnamesi kapsamında belirlenen aylık tarife
+                bedelinin taahhüt süresi bitimine kadar kalan aylara ilişkin
+                ücretlerin toplam bedelini karşılaştırarak, abone açısından daha
+                avantajlı olan tutarı, cayma bedeli olarak faturanıza
+                yansıtabilmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+            >
+              Adresime fatura gelmiyor. Ne yapmalıyım?
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                İşletmeciler abonelerine basılı fatura göndermekle yükümlüdür.
+                Ancak, abonenin talebi veya onayı ile basılı fatura yerine
+                elektronik ortamda da fatura gönderilebilir. Bununla birlikte,
+                faturalarınızın adresinize ulaşmaması halinde, abonesi olduğunuz
+                işletmecideki adres bilginizin doğru olup olmadığını kontrol
+                etmenizde fayda görülmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNine">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNine"
+            >
+              İşletmecilerin ayrıntılı fatura için ücret talep etmeleri uygun
+              mudur?
+            </button>
+          </h2>
+          <div
+            id="collapseNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>Ayrıntılı faturanın;</p>
+              <p>
+                basılı olarak talep edilmesi durumunda işletmeciler tarafından
+                ücretli veya ücretsiz şekilde,
+              </p>
+              <p>
+                elektronik ortamda talep edilmesi durumunda ise ücretsiz bir
+                şekilde aboneye sunulması gerekmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTen"
+            >
+              Faturam tarifemde belirtilen tutardan fazla geldi. Ne yapmalıyım?
+            </button>
+          </h2>
+          <div
+            id="collapseTen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Faturanıza hangi ücretlerin yansıtıldığı bilgisini, hizmet
+                aldığınız işletmecinin internet sitesinde yer alan online
+                işlemler menüsünden (asgari 3 aylık kullanım detayları yer
+                almaktadır) sorgulayarak ya da müşteri hizmetlerini arayarak
+                öğrenebilirsiniz. Halen söz konusu fatura tutarının fazla
+                olduğunu düşünüyorsanız işletmecinize başvurabilirsiniz.
+                Başvurunuz neticesinde, sorunun işletmeciniz tarafından
+                çözülmediğini değerlendirmeniz halinde yasal yollara
+                başvurabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEleven">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEleven"
+            >
+              Yurt dışı seyahatlarimde mobil hattımı kullanırken dikkat etmem
+              gereken hususlar nelerdir?
+            </button>
+          </h2>
+          <div
+            id="collapseEleven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Mobil hattınızı yurt dışında kullanabilmek için hattınızın
+                uluslararası dolaşım hizmetine (roaming) açık olması
+                gerekmektedir. Ancak, yurt dışında iken arama yapmanın yanında
+                aranmanın da ücrete tabi olması, yurt dışındaki arama/aranma ve
+                veri kullanım (internete erişim) ücretlerinin, ülkeden ülkeye
+                değişebilmekle birlikte, yurt içindeki aynı hizmetlere göre daha
+                yüksek olması sebebiyle, işletmecinizin internet sitesinden,
+                müşteri hizmetlerinden temin edebileceğiniz veya yurt dışına
+                gittiğiniz ülkede tarafınıza SMS ile gönderilen yurt dışı
+                ücretlerini göz önünde bulundurarak kullanım yapmanızda fayda
+                görülmektedir. Ayrıca herhangi bir talebe gerek olmaksızın
+                uluslararası mobil veri dolaşım (roaming) hizmetinden yararlanan
+                abonelere, veri (data) kullanım tutarları 100 TL ve 250 TL’ye
+                ulaştığında işletmeciler tarafından bilgilendirilme
+                yapılmaktadır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwelve">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwelve"
+            >
+              Cihazımın diğer ülke şebekelerine bağlanmaması için ne yapmalıyım?
+            </button>
+          </h2>
+          <div
+            id="collapseTwelve"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Hattınız uluslararası dolaşım hizmetine (roaming) açılmadığı
+                müddetçe diğer ülke şebekelerinde kullanılamayacaktır. Ancak
+                hattın uluslararası dolaşım hizmetine açık olması durumunda kıyı
+                veya sınır bölgelerimizde bulunan vatandaşlarımızın yurt
+                dışındaki işletmecilerin şebekesi üzerinden hizmet alma ve bu
+                durumda uluslararası dolaşım tarifesi üzerinden
+                ücretlendirilerek yüksek faturalar ile karşılaşma ihtimalleri
+                bulunmaktadır. Bu durum ile karşılaşmamak için; hizmet aldığınız
+                işletmeci ile irtibata geçerek hattınızı uluslararası dolaşım
+                hizmetine kapalı hale getirebilir veya mobil cihazınızın ayarlar
+                menüsünden, kendi mobil operatörünüzü (ağ
+                operatörleri/operatörler) manuel olarak seçerek yurt dışından
+                hizmet veren şebekeye otomatik geçiş yapılmasını
+                engelleyebilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirteen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirteen"
+            >
+              444'lü numaraları aramanın ücreti nedir?
+            </button>
+          </h2>
+          <div
+            id="collapseThirteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                444’lü numaralara doğru yapılan aramalarda; abonenin mevcut
+                tarifesinde yer alan sabit hatlara doğru yapılan aramalardaki
+                ücretlendirmeden farklı bir ücretlendirme yapılmamaktadır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourteen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourteen"
+            >
+              Güvenli internet hizmeti nedir?
+            </button>
+          </h2>
+          <div
+            id="collapseFourteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Güvenli İnternet Hizmeti, talebiniz doğrultusunda işletmeciniz
+                tarafından ücretsiz olarak sunulan, Çocuk Profili ve Aile
+                Profili olmak üzere iki seçenekten oluşan ve internet
+                ortamındaki zararlı içeriklerden internet kullanıcılarını büyük
+                oranda koruyan alternatif bir güvenlik hizmetidir. Güvenli
+                İnternet Hizmetinden yararlanabilmek için, internet erişiminizi
+                sağlayan işletmecinin bayisi, çağrı merkezi, kısa mesaj servisi
+                (SMS), online işlem merkezinden herhangi birine başvurarak söz
+                konusu hizmeti etkinleştirilebilir, istediğiniz zaman profilleri
+                değiştirilebilir ya da profilleri devre dışı bırakabilirsiniz.
+                Konuya ilişkin detaylı bilgi www.guvenlinet.org adresinde yer
+                almaktadır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFifteen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFifteen"
+            >
+              Numaramı değiştirmeden hizmet aldığım işletmeciyi değiştirebilir
+              miyim?
+            </button>
+          </h2>
+          <div
+            id="collapseFifteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Numaranızı değiştirmeden işletmecinizi değiştirebilmeniz için,
+                öncelikle abonesi olmak istediğiniz yeni işletmeciye "numara
+                taşıma" talebinde bulunmanız ve ilgili formları doldurarak
+                taşıma işleminin gerçekleşmesinden itibaren geçerli olacak
+                şekilde abonelik sözleşmesi imzalamanız gerekmektedir. Konuya
+                ilişkin ayrıntılı bilgiye http://www.nts.gov.tr/ internet
+                adresinden sitesinden ulaşabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSixteen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSixteen"
+            >
+              Adıma kayıtlı hat sayısını nasıl öğrenebilirim?
+            </button>
+          </h2>
+          <div
+            id="collapseSixteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Aboneler, https://hat-sorgulama.btk.gov.tr internet adresinden
+                gerekli bilgileri girerek üzerlerine kayıtlı aktif hatları
+                öğrenebilmektedirler. Ayrıca herhangi bir aboneliği bulunmayan
+                vatandaşlar da üzerlerine kayıtlı hatlara ilişkin bilgiyi
+                e-Devlet üzerinden öğrenebilmektedirler.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeventeen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeventeen"
+            >
+              Engelliler için sunulan hizmetler nelerdir?
+            </button>
+          </h2>
+          <div
+            id="collapseSeventeen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Bilgi Teknolojileri ve İletişim Kurulu tarafından yapılan
+                düzenlemeler kapsamında;
+              </p>
+              <ul>
+                <li>
+                  Talep eden görme engellilerin abonelik sözleşme ve
+                  faturalarının "Braille" ya da sesli anons şeklinde sunulması
+                </li>
+                <br />
+                <li>
+                  Tarifelerde ve hizmetin sunum koşullarında meydana gelen tüm
+                  değişikliklerin talep eden abonelere sesli mesaj olarak
+                  gönderilmesi
+                </li>
+                <br />
+                <li>
+                  Engelli tüketicilere yönelik makul ölçüde ekonomik avantajlar
+                  ihtiva eden tarife ve kampanyalar sunulması
+                </li>
+                <br />
+                <li>
+                  Internet sitelerinin engelli abonelerin yararlanabileceği
+                  şekilde erişilebilirliğinin sağlanması
+                </li>
+                <br />
+                <li>
+                  Engellilere yönelik olarak sunulan tüm hizmetlerin internet
+                  sayfası üzerinde tek başlık altında toplanarak engelli
+                  tüketicilerin bilgiye erişimlerinin kolaylaştırılması
+                </li>
+                <br />
+                <li>
+                  Talep eden abonelere ücretsiz sesli konum bilgisi verilmesi
+                </li>
+                <br />
+                <li>
+                  Engelli abonenin konum bilgisinin, engelli abonenin talebi
+                  doğrultusunda asgari (1) telefon numarası tarafından da
+                  ücretsiz olarak (farklı operatörler arasında yapılacak
+                  sorgulamalarda yansıyabilecek kısa mesaj veya arama ücretleri
+                  hariç) öğrenilebilmesinin sağlanması
+                </li>
+                <br />
+                <li>
+                  Talep eden abonelere fatura ve kota dolum bilgilerinin sesli
+                  mesaj olarak gönderilmesi
+                </li>
+                <br />
+                <li>
+                  Abonenin talebi doğrultusunda "Aradığınız kişi işitme
+                  engellidir" bilgisinin ücretsiz olarak sunulması
+                </li>
+                <br />
+                <li>
+                  Ses hizmetinden bağımsız olarak sadece SMSm veya sadece data
+                  paketi hizmeti sunulması gerekmektedir
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEighteen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEighteen"
+            >
+              Mobil telefon cihazı alırken nelere dikkat edilmelidir?
+            </button>
+          </h2>
+          <div
+            id="collapseEighteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Mobil telefon cihazı alırken aşağıdaki hususlarına dikkat
+                edilmesinde fayda görülmektedir.
+              </p>
+              <ul>
+                <li>Satın alınacak cihazın ambalajının açılmamış olması</li>
+                <li>
+                  Cihazın markası, modeli ve seri numarası veya IMEI numarasının
+                  faturada belirtilmiş olması ve faturanın muhafaza edilmesi
+                </li>
+                <li>Cihazda"CE" işaretinin varlığının kontrol edilmesi</li>
+                <li>Türkçe kullanım kılavuzu olan cihazların satın alınması</li>
+                <li>
+                  Garanti belgesinin satıcı tarafından tasdik edilip
+                  edilmediğinin kontrol edilmesi
+                </li>
+                <li>
+                  Satış sonrası montaj, bakım ve onarım hizmetleri ve yetkili
+                  servislere ilişkin bilgi alınması
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNineteen">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNineteen"
+            >
+              Cihazımın ayıplı (kusurlu) olduğunu anlamam durumunda ne
+              yapabilirim?
+            </button>
+          </h2>
+          <div
+            id="collapseNineteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Cihazın ayıplı (kusurlu) olduğunun anlaşılması (teknik servis
+                tarafından tespit edilmesi) durumunda;
+              </p>
+              <ul>
+                <li>
+                  Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden
+                  dönme
+                </li>
+                <li>
+                  Satılanı alıkoyup ayıp oranında satış bedelinden indirim
+                  isteme
+                </li>
+                <li>
+                  Aşırı bir masraf gerektirmediği takdirde, bütün masrafları
+                  satıcıya ait olmak üzere satılanın ücretsiz onarılmasını
+                  isteme
+                </li>
+                <li>
+                  İmkân varsa, satılanın ayıpsız bir misli ile değiştirilmesini
+                  isteme,seçimlik haklarından birini kullanabilirsiniz.
+                  Satıcının yukarıda yer alan yükümlülüğünü yerine getirmemesi
+                  halinde yasal yollara başvurabilirsiniz
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwenty">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwenty"
+            >
+              Yurt dışından cihaz aldım ve Türkiye’de kullanmak istiyorum. Ne
+              yapmalıyım?
+            </button>
+          </h2>
+          <div
+            id="collapseTwenty"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Mobil işletmeciler tarafından hizmet verilen elektronik kimlik
+                bilgisine (IMEI) sahip cihazların Türkiye’de kullanılabilmesi
+                için kayıt altına alınmaları gerekmektedir. Cihaz kayıt
+                işlemleri e-Devlet şifresi ile www.turkiye.gov.tr internet
+                adresinden yapılabilmektedir. Cihaz kayıt işlemi için ödenmesi
+                gereken ücretler dâhil ayrıntılı bilgiye "Mobil Cihazların Kayıt
+                Altına Alınması ile İlgili Sıkça Sorulan Sorular"
+                rehberinden/bağlantısından ulaşabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyOne">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyOne"
+            >
+              Cihazımı kaybettim/çaldırdım. Ne yapmam gerekir?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#myAccordion"
+          >
+            <div class="card-body">
+              <p>
+                Mobil cihazların sahibinin rızası dışında elden çıkması
+                durumlarında tüketiciler, cihazlarının hizmet almasını
+                engellemek için, e-Devlet üzerinden veya Bilgi Teknolojileri ve
+                İletişim Kurumunun (BTK) Bilgi ve İhbar Merkezinin "120"
+                numaralı telefonunu aramak sureti ile haftanın 7 günü 24 saat
+                (7/24) ihbarda bulunabilirler. Ayrıca, tüketicinin hizmet aldığı
+                işletmeciyi arayarak hattını kullanıma kapatmasında da fayda
+                görülmektedir. Kayıp çalıntı cihazlarla ilgili ayrıntılı bilgiye
+                "Kayıp/Çalıntı Mobil Cihazlarla İlgili Sıkça Sorulan Sorular"
+                rehberinin yer aldığı https://tuketici.btk.gov.tr bağlantısından
+                ulaşabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
